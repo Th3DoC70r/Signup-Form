@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+  <form lang="en-US">
+    <header>
+        <h1>Signup Form</h1>
+    </header>
+    <div>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required minlength="5" placeholder="Enter a valid email address">
+    </div>
+    <br>
+    <div>
+        <label for="Password">Password:</label>
+        <input type="text" id="Password"  name="Password" required minlength="8" maxlength="15" placeholder="Enter a password">
+    </div>
+    <br>
+    <div>
+        <label for="Github Username">Github Username:</label>
+        <input type="text" id="Github Username" name="Github Username" required placeholder="Enter your Github username">
+    </div>
+    <br>
+    <div>
+        <label for="Version">Version:</label>
+        <input type="radio" id="Free" name="Version" required value="Free">
+        <label for="Free">Free</label>
+        <input type="radio" id="Enterprise" name="Version" value="Enterprise">
+        <label for="Enterprise">Enterprise</label>
+        <input type="radio" id="Pro" name="Version" value="Pro">
+        <label for="Pro">Pro</label>
+    </div>
+    <br>
+    <div>
+        <input type="checkbox" id="Remember Me" name="Remember Me">
+        <label for="Remember Me">Remember Me</label>
+    </div>
+    <button type="submit" name="Submit">Submit</button>
+  </form>
